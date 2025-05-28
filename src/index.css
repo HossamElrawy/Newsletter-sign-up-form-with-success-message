@@ -1,0 +1,19 @@
+:global(*) {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: hsl(234, 29%, 20%);
+  padding: 220px 256px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width : 800px ) {
+  body {
+    padding:0;
+  }
+}
